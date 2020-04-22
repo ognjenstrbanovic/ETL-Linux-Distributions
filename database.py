@@ -12,9 +12,10 @@ def getLatest():
     client = pymongo.MongoClient(conn)
 
 # Connect to a database. Will create one if not already available.
-    db = client.marsDb
-    #data = db.scrapes.find()
-    data = db.scrapes2.find().sort('_id', -1)
+    db = client.etlProject
+    
+    # get the record that was inserted last 
+    data = db.myDB.find().sort('_id', -1)
     print(data[0])
     return data[0]
 
@@ -28,14 +29,13 @@ def update():
     client = pymongo.MongoClient(conn)
 
 # Connect to a database. Will create one if not already available.
-    db = client.marsDb
-    #data = db.scrapes.find()
-
-    mars_data = scrape()
-    #print(mars_data)
-
-    data = db.scrapes2
-    post_id = data.insert_one(mars_data).inserted_id
+    db = client.etlProject
+    
+    #myData = getData()
+    
+    # insert mData into DB 
+    data = db.myDB
+    post_id = data.insert_one(myData).inserted_id
     print(post_id)
 
 
