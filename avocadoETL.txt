@@ -1,0 +1,15 @@
+This was used as the source
+https://www.kaggle.com/neuromusic/avocado-prices
+It contains a 2D csv of avocado prices.
+The file was stored in a mongoDB dictionary
+schema is eltProject
+database is avocado
+
+sample of data stored :
+
+{'_id': ObjectId('5ea0701c7378791bedb8809a'), 'Date': '2018-01-07', 'AveragePrice': 1.62, 'Total Volume': 17489.58, '4046': 2894.77, '4225': 2356.13, '4770': 224.53, 'Total Bags': 12014.15, 'Small Bags': 11988.14, 'Large Bags': 26.01, 'XLarge Bags': 0.0, 'type': 'organic', 'year': 2018, 'region': 'WestTexNewMexico', 'id': 11}
+{'_id': ObjectId('5ea0701c7378791bedb88099'), 'Date': '2018-01-14', 'AveragePrice': 1.93, 'Total Volume': 16205.22, '4046': 1527.63, '4225': 2981.04, '4770': 727.01, 'Total Bags': 10969.54, 'Small Bags': 10919.54, 'Large Bags': 50.0, 'XLarge Bags': 0.0, 'type': 'organic', 'year': 2018, 'region': 'WestTexNewMexico', 'id': 10}
+{'_id': ObjectId('5ea0701c7378791bedb88098'), 'Date': '2018-01-21', 'AveragePrice': 1.87, 'Total Volume': 13766.76, '4046': 1191.92, '4225': 2452.79, '4770': 727.94, 'Total Bags': 9394.11, 'Small Bags': 9351.8, 'Large Bags': 42.31, 'XLarge Bags': 0.0, 'type': 'organic', 'year': 2018, 'region': 'WestTexNewMexico', 'id': 9}
+
+It was decided that since the use is unknown nulls would be kept ( in the date column ).
+Since use was unknown it was decided that the creation of a relational schema was unnecessary
