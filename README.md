@@ -1,51 +1,3 @@
-# etlproject
-
-Guidelines for ETL Project
-This document contains guidelines, requirements, and suggestions for Project 1.
-
-Team Effort
-Due to the short timeline, teamwork will be crucial to the success of this project! Work closely with your team through all phases of the project to ensure that there are no surprises at the end of the week.
-
-Working in a group enables you to tackle more difficult problems than you'd be able to working alone. In other words, working in a group allows you to work smart and dream big. Take advantage of it!
-
-Project Proposal
-Before you start writing any code, remember that you only have one week to complete this project. View this project as a typical assignment from work. Imagine a bunch of data came in and you and your team are tasked with migrating it to a production data base.
-
-Take advantage of your Instructor and TA support during office hours and class project work time. They are a valuable resource and can help you stay on track.
-
-Finding Data
-Your project must use 2 or more sources of data. We recommend the following sites to use as sources of data:
-
-data.world
-
-Kaggle
-
-You can also use APIs or data scraped from the web. However, get approval from your instructor first. Again, there is only a week to complete this!
-
-Data Cleanup & Analysis
-Once you have identified your datasets, perform ETL on the data. Make sure to plan and document the following:
-
-The sources of data that you will extract from.
-
-The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
-
-The type of final production database to load the data into (relational or non-relational).
-
-The final tables or collections that will be used in the production database.
-
-You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.
-
-Project Report
-At the end of the week, your team will submit a Final Report that describes the following:
-
-Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
-
-Transform: what data cleaning or transformation was required.
-
-Load: the final database, tables/collections, and why this was chosen.
-
-Please upload the report to Github and submit a link to Bootcampspot.
-
 
 
 GOOD HOMBRES PROJECT 
@@ -57,6 +9,20 @@ https://www.kaggle.com/mczielinski/bitcoin-historical-data
 https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
 https://www.kaggle.com/roshansharma/sanfranciso-crime-dataset 
 https://www.kaggle.com/lachhebo/distrowatch-page-hit-ranking-distro-popularity 
+
+The data sets were chosed becuase of high "useability" on kaggle. 
+We were asked to use 2 datasets but decided to "go overboard" and load 5. 
+There was no suggestion to use "related" datasets anywhere so we fairly randomly chose 5 datasets. 
+We assumed that each data set might produce it's own ETC challenges to solve. 
+The assignment question did not ask for us to create a scenario or a front end. 
+We decided that the best approach was to extract , transform and load the data. 
+We decided to use a mongoDB database and also a postgres database to practice using different types of databases. 
+with no scenario in mind we decided the best approach was to collate the data into 2 databases and clean them up so that they could be easily searched. Because no use was asked for we decided that the best approach was to perform minimal translations on the data. 
+In some instances some columns were removed and rows populated with nulls were discarded. 4 of the data sources were loaded into one mongoDB database. These were unrelated data sources so there was no need to perform a great deal of transformation. 
+The 5th data set was extracted , transformed and loaded into a postgres database. 
+Specific details about the process are included below. The mongoDB schema is called "etlProject". The data sets used are stored in the /data directory on github. Python files and jupyter notebooks are included here which perform the ETL for each dataset. 
+
+
 
 
 ### ETL Project
@@ -141,9 +107,64 @@ We decided to drop nulls because many rolls only hada timestamp and no data.
 It was loaded into mongoDB. 
  
 
+GUIDELINES GIVEN ARE BELOW 
 
 
 
+
+
+
+
+
+
+
+# etlproject
+
+Guidelines for ETL Project
+This document contains guidelines, requirements, and suggestions for Project 1.
+
+Team Effort
+Due to the short timeline, teamwork will be crucial to the success of this project! Work closely with your team through all phases of the project to ensure that there are no surprises at the end of the week.
+
+Working in a group enables you to tackle more difficult problems than you'd be able to working alone. In other words, working in a group allows you to work smart and dream big. Take advantage of it!
+
+Project Proposal
+Before you start writing any code, remember that you only have one week to complete this project. View this project as a typical assignment from work. Imagine a bunch of data came in and you and your team are tasked with migrating it to a production data base.
+
+Take advantage of your Instructor and TA support during office hours and class project work time. They are a valuable resource and can help you stay on track.
+
+Finding Data
+Your project must use 2 or more sources of data. We recommend the following sites to use as sources of data:
+
+data.world
+
+Kaggle
+
+You can also use APIs or data scraped from the web. However, get approval from your instructor first. Again, there is only a week to complete this!
+
+Data Cleanup & Analysis
+Once you have identified your datasets, perform ETL on the data. Make sure to plan and document the following:
+
+The sources of data that you will extract from.
+
+The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
+
+The type of final production database to load the data into (relational or non-relational).
+
+The final tables or collections that will be used in the production database.
+
+You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.
+
+Project Report
+At the end of the week, your team will submit a Final Report that describes the following:
+
+Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
+
+Transform: what data cleaning or transformation was required.
+
+Load: the final database, tables/collections, and why this was chosen.
+
+Please upload the report to Github and submit a link to Bootcampspot.
 
 
 
