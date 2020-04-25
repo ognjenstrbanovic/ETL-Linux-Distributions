@@ -13,7 +13,7 @@ https://www.kaggle.com/lachhebo/distrowatch-page-hit-ranking-distro-popularity
 The data sets were chosed becuase of high "useability" on kaggle. 
 We were asked to use 2 datasets but decided to "go overboard" and load 5. 
 There was no suggestion to use "related" datasets anywhere so we fairly randomly chose 5 datasets. 
-We assumed that each data set might produce it's own ETC challenges to solve. 
+We assumed that each data set might produce it's own ETL challenges to solve. 
 The assignment question did not ask for us to create a scenario or a front end. 
 We decided that the best approach was to extract , transform and load the data. 
 We decided to use a mongoDB database and also a postgres database to practice using different types of databases. 
