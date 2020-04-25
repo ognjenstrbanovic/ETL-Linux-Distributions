@@ -16,7 +16,7 @@ client = pymongo.MongoClient(conn)
     # thid creates a schema called etlProject
 db = client.etlProject
 
-coll = db.airbnb
+coll = db.BTC
 #data = pd.read_csv(csv_path)
 dataCoinbase = pd.read_csv('./data/coinbaseUSD_1-min_data_2014-12-01_to_2019-01-09.csv',encoding = 'ISO-8859-1')
 dataBitstamp = pd.read_csv('./data/bitstampUSD_1-min_data_2012-01-01_to_2019-08-12.csv',encoding = 'ISO-8859-1')
