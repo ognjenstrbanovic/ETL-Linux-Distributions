@@ -11,7 +11,8 @@ We wanted to convert it to a JSON file, so we used the *json.loads* (json librar
 ## Load
 We had two options here: to load into a PostgreSQL database, or a MongoDB database. We chose the latter.__
 First, we made a connection to the local host and the database, which was *etlProject*. We dropped a collection (if it existed in the database), as this is standard practice, and then inserted the collection *json_loads*. We printed the count of the rows to make sure that it was the same as in the pandas DataFrame. Once again, to verify, we printed 10 objects; the output was what we had expected it to be.  
-Finally, we were finished, and had congratulated each other on some great teamwork!
+As an aside, you may find my Jupyter notebook by clicking on the following link: https://github.com/ognjenstrbanovic/etlproject/blob/master/Ognjen%20Strbanovic/Import%20Linux%20Distro%20CSV%20to%20MongoDB.ipynb.  
+Finally, we were finished, and had congratulated each other on some great teamwork!!
 
 # Guidelines (Met)
 
