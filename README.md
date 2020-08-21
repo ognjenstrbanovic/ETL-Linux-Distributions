@@ -1,7 +1,5 @@
 # ETL 🚀
-
 ![Tux](https://github.com/ognjenstrbanovic/ETL-Linux-Distributions/blob/master/Ognjen%20Strbanovic/Tux.png?raw=true)
-
 **We call ourselves the *"Good Hombres"*, and for this project, we had to perform extraction, transformation, and loading on a dataset.**
 ## Extract
 We used the Kaggle website to find the following data source on Linux distributions: https://www.kaggle.com/lachhebo/distrowatch-page-hit-ranking-distro-popularity/version/1. It's one CSV file, and it was ranked as having "high useability".  
