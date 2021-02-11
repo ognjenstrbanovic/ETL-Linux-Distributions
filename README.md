@@ -4,9 +4,7 @@
  <figcaption>Tux is very cute!</figcaption>
 </figure>
 
----
-
-**We call ourselves the *"Good Hombres"*, and for this project, we had to perform extraction, transformation, and loading on a dataset.**
+## <ins>We call ourselves the *"Good Hombres"*, and for this project, we had to perform extraction, transformation, and loading on a dataset.</ins>
 
 ## Extract
 We used the Kaggle website to find the following data source on Linux distributions: https://www.kaggle.com/lachhebo/distrowatch-page-hit-ranking-distro-popularity/version/1. It's one CSV file, and it was ranked as having "high useability".  
