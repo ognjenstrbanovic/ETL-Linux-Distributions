@@ -1,6 +1,13 @@
 # ETL 🚀
-![Tux](https://github.com/ognjenstrbanovic/ETL-Linux-Distributions/blob/master/Ognjen%20Strbanovic/Tux.png?raw=true)
+<figure class="image">
+ <img src="https://github.com/ognjenstrbanovic/ETL-Linux-Distributions/blob/master/Ognjen%20Strbanovic/Tux.png?raw=true" height="33%" width="33%">
+ <figcaption>Tux is very cute!</figcaption>
+</figure>
+
+---
+
 **We call ourselves the *"Good Hombres"*, and for this project, we had to perform extraction, transformation, and loading on a dataset.**
+
 ## Extract
 We used the Kaggle website to find the following data source on Linux distributions: https://www.kaggle.com/lachhebo/distrowatch-page-hit-ranking-distro-popularity/version/1. It's one CSV file, and it was ranked as having "high useability".  
 The database chosen was MongoDB, because we didn't have datasets that were related at all. The schema was called `etlProject`.
