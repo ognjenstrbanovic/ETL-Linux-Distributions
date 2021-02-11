@@ -1,7 +1,7 @@
 # ETL 🚀
 <figure class="image">
  <img src="https://github.com/ognjenstrbanovic/ETL-Linux-Distributions/blob/master/Ognjen%20Strbanovic/Tux.png?raw=true" height="33%" width="33%">
- <figcaption>Tux is very cute!</figcaption>
+ <figcaption>By the way, Tux is very cute!</figcaption>
 </figure>
 
 ## <ins>We call ourselves the *"Good Hombres"*, and for this project, we had to perform extraction, transformation, and loading on a dataset.</ins>
